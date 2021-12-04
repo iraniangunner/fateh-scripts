@@ -1,4 +1,4 @@
-function isBalanced(input) {
+export function isBalanced(input) {
   let result = null;
   let brackets = "[]{}()";
   let stack = [];
